@@ -1,0 +1,2 @@
+1. The types of num1 and num2 were undefined, so in adding them, they were being concatenated and the type of return was thus a string. 
+2. By casting num1 and num2 as numbers, we are ensuring they actually being added as integers, and the type of return is a number as well now. 
